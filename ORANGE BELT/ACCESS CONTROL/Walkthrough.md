@@ -12,4 +12,4 @@ level 1:
 
      And when seeing the contents in the flag you can get the flag
 
-     ![alt text](image.png)
+     ![FLAG IMAGE ](image.png)
