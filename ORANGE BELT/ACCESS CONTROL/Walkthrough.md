@@ -92,3 +92,17 @@ for user in $users; do
         echo "$user is in $group"
     fi
 done
+
+challenge-11
+
+![alt text](image-11.png)
+
+in this challenge there are two users with password given
+
+so they have mentioned that the copy of the flag is in one of the directory 
+
+so first we need to go inside the directory with one user
+
+then the copy of the file flag is holded by another user .
+
+so we want to switch user to that user and cat and see the file
