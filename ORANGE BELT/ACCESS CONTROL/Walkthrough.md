@@ -4,12 +4,6 @@
 
 level 1:
 
-     IT IS A SIMPLE CHALLENGE  
+     ![alt text](image.png)
 
-     so go run the file /challenge/run
-
-     you can see that hacker can read the file at the /flag
-
-     And when seeing the contents in the flag you can get the flag
-
-     ![FLAG IMAGE ](image.png)
+     the hacker user has a read permission to the file flag . so we can simply read the flag and see
