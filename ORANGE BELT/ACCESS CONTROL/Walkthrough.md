@@ -74,3 +74,21 @@ Challenge-9:
 ![alt text](image-9.png)
 
 In this challenge we can see that there is user and group name same . so the user be in that group so we can switch to that user and cat the flag
+
+challenge-10:
+
+![alt text](image-10.png)
+
+In this challenge there are 10 users in different groups . so we have to find the user in a particular group and we need to switch to that user and cat and see the file  .so instead of using the groups command separately we can use a simple script to automate the task and find the crct user in that grp and solve it
+
+#!/bin/bash
+
+group="groupname"                   
+
+users="user1 user2 user3"
+
+for user in $users; do
+    if groups "$user" | grep -qw "$group"; then
+        echo "$user is in $group"
+    fi
+done
