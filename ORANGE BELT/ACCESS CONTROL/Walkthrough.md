@@ -108,3 +108,7 @@ then the copy of the file flag is holded by another user .
 so we want to switch user to that user and cat and see the file
 
 challenge-12
+
+![alt text](image-12.png)
+
+same like previous challenge but there is 3 users
