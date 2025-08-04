@@ -55,3 +55,22 @@ so we can use the command
            this will not permanently add the user to the group but it will tempporarily add the user to that group
 
            so we can now cat the /flag and see now flag
+
+
+Challenge-7:
+
+![alt text](image-6.png)
+
+In this challenge we can switch the user and we can cat and see the flag because read permission is set for the other user.
+
+Challenge-8:
+
+![alt text](image-7.png)
+
+In this challenge the user has a permission to read the file . so we need to switch to that user and we cna able to cat that file and see but here the user is the owner of the file
+
+Challenge-9:
+
+![alt text](image-9.png)
+
+In this challenge we can see that there is user and group name same . so the user be in that group so we can switch to that user and cat the flag
