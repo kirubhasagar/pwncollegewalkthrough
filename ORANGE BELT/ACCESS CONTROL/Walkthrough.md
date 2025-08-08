@@ -112,3 +112,6 @@ challenge-12
 ![alt text](image-12.png)
 
 same like previous challenge but there is 3 users
+
+
+The remainining questions are like mcq questions
