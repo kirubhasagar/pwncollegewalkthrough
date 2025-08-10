@@ -30,6 +30,10 @@ challenge-4: listen
   
        just run the script at and then listen with help of the netcat command and you will get the flag
 
-challenge-5: 
+challenge-5: scan -1
  
        IN this challenge we need to simply used ping with a script in that network and get the ip which is up and connect with that ip with netcat and get the flag
+
+challenge-6: scan-2
+        
+         just find the way how to get scan with network fast and connect with the i using netcat you will get the flag 
