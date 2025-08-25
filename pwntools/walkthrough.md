@@ -54,3 +54,33 @@ when we analyze the binary by the file command we can see that LSB -> so it is l
 
 and when we send the payload we get the flag
 
+# challenge 1.1
+
+# exploit 
+
+from pwn import *
+
+context(arch="amd64", os="linux", log_level="info")
+
+
+challenge_path = "/challenge/pwntools-tutorials-level1.1"
+p = process(challenge_path)
+
+addr=p32(0x075BCD15)
+payload=b'p\x15'+addr+b'Bypass Me:)'
+p.sendlineafter(":)\n###\n", payload)
+
+
+flag = p.recvline()
+print(f"flag is: {flag}")
+
+Explanation:
+
+here is first two bytes are buf[0]=p and buf[1]=x15
+
+inbetween 4 bytes are bytes of 123456789 in little endian format buf[2-5]=\x15\xCD\x5B\x07 
+
+and next 11 bytes are 'Bypass Me:)' this string in bytes
+
+
+
